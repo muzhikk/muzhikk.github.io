@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    /* font-family: "Press Start 2P", system-ui; */
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, button {
+    color: white;
+    /* font-family: "Press Start 2P", system-ui; */
+    font-family: "IBM Plex Mono", monospace;
+    white-space: pre;
+    text-wrap: wrap;
+}
+
+li {
+    color: white;
+    /* font-family: "Press Start 2P", system-ui; */
+    font-family: "IBM Plex Mono", monospace;
+}
+
+button {
+    height: 20px;
+    border: none;
+    padding: 10px;
+    box-sizing: unset;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.glow-sample {
+    box-shadow: 0px 0px 10px 2px red;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+
+.base-width {
+    width: 90%;
+}
+
+.base-padding {
+    padding: 30px;
+}
+
+.flexel {
+    flex: 0 0 auto;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 20px;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.guide-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guide-content {
+    display: none;
+}
+
+.header-logo {
+    height: 100%;
+}
